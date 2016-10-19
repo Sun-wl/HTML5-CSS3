@@ -1,0 +1,247 @@
+article,section,header,footer,nav,aside,address{
+    display:block;
+}
+*{margin:0 auto;padding:0 auto;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+
+.all{
+    width:100%;
+    margin:0 auto;
+}
+/*header*/
+header{
+    background: url("../images/index_04.gif") repeat-x;
+}
+header>ul{
+    margin-left:93px;
+    overflow: hidden;
+}
+header>ul>li{
+    height:78px;
+    float: left;
+    position: relative;
+}
+header>ul>li.search>input {
+    width: 332px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin: 19px 10px 19px 200px;
+    text-indent: 4em;
+}
+header>ul>li.search>span{
+    position: absolute;
+    left:215px;
+    top:35px;
+    font-size:12px;
+    line-height:15px;
+    border-right:1px solid #ccc;
+}
+header>ul>li.login>img{
+    margin:25px 0 25px 10px;
+    border:1px solid #cccccc;
+    border-right:none;
+    float: left;
+}
+header>ul>li.login>input{
+    float: left;
+    margin:25px 0;
+    width:50px;
+    height:30px;
+    border:1px solid #cccccc;
+    background:url("../images/index_03.png") repeat-x;
+}
+
+/*nav*/
+.nav{
+    background: #158687;
+}
+.nav>ul{
+    width:823px;
+    height:50px;
+    margin:auto;
+}
+.nav>ul>li{
+    float: left;
+    margin:15px 23px;
+    font-size:14px;
+    color: #fff;
+}
+
+/*content*/
+.content{
+    background: url("../images/index_01.png") repeat-x;
+}
+.content_c{
+    width:1010px;
+    background: white;
+    padding-top:20px;
+    overflow: hidden;
+}
+.c_left{
+    float: left;
+    width:225px;
+    margin-left: 20px;
+}
+.c_left>section>article>h1{
+    font-size:15px;
+    font-weight: bold;
+    border-bottom:1px solid #000;
+    margin-top:10px;
+}
+.c_left>section>article>h1>p{
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    border-top:3px solid #0A6367;
+    margin-left:0;
+}
+.c_left>section>article>ul>li{
+    overflow: hidden;
+    margin-left: -40px;
+    font-size:12px;
+}
+.c_left>section>article>ul>li>p.index{
+    float: left;
+    color:red;
+    line-height: 25px;
+}
+.c_left>section>article>ul>li>p.word{
+    width:195px;
+    line-height: 25px;
+    margin-left:25px;
+    border-bottom:1px dashed #ccc;
+}
+.c_left>section>article>ul>li>p.word>a.red{
+    color: red;
+}
+.c_left>section>article>ul>li>div{
+    width:195px;
+    margin-top:5px;
+    margin-left:25px;
+    border-bottom:1px dashed #ccc;
+    overflow: hidden;
+}
+.c_left>section>article>ul>li>p>a{
+    color: #000;
+}
+.c_left>section>article>ul>li>div>img{
+    width:85px;
+    height:58px;
+    float: left;
+}
+.c_left>section>article>ul>li>div>div.image_right{
+    padding-left:2px;
+    float: left;
+}
+.c_left>section>article>ul>li>div>div.image_right>a{
+    color: #000;
+}
+.c_left>section>article>ul>li>div>div.image_right>p{
+    color: #9C999C;
+}
+
+.c_right{
+    margin-left:275px;
+}
+.c_right>h1{
+    height:40px;
+    line-height: 40px;
+    font-size:15px;
+    font-weight: bold;
+    border-bottom:1px solid #000;
+    margin:10px 25px 0 0;
+}
+.c_right>ul{
+     overflow: hidden;
+    margin-left:-45px;
+ }
+.c_right>ul>li{
+    float: left;
+    margin-top:10px;
+    margin-left:20px;
+}
+.c_right>ul>li>p{
+    font-size:12px;
+    height:20px;
+}
+.c_right>ul>li>p.small{
+    font-size:10px;
+    color: #9A9B9A;
+}
+.c_right_nav>ul{
+    overflow: hidden;
+}
+.c_right_nav>ul>li{
+    float: left;
+    font-size:12px;
+    font-weight:bold;
+    color: #ccc;
+    margin:0 2px;
+    height:50px;
+    line-height:50px;
+}
+.c_right_nav>ul>li>p{
+    height:20px;
+    line-height: 20px;
+    margin-top:15px;
+    text-align: center;
+    border:1px solid #ccc;
+}
+.c_right_nav>ul>li>p.nob{
+    border:none;
+    color: #787878;
+}
+.c_right_nav>ul>li>p.flpage{
+    width:40px;
+}
+.c_right_nav>ul>li>p.pnpage{
+    width:50px;
+}
+.c_right_nav>ul>li>p.numberpage{
+    width:20px;
+}
+.c_right_nav>ul>li>input{
+    width:40px;
+    border:1px solid #ccc;
+}
+.c_right_nav>ul>li>p.jamppage{
+    width:40px;
+    color: #000;
+}
+
+
+/*footer*/
+footer>ul{
+    overflow: hidden;
+    width:1010px;
+}
+footer>ul>li{
+    float: left;
+    margin:5px 12px;
+    font-size:15px;
+}
+footer>ul>li>a>select{
+    width:147px;
+    height:22px;
+    border:2px solid #F5F5F5;
+    border-top:2px solid #787878;
+    border-left:2px solid #787878;
+    line-height: 22px;
+    font-size: 12px;
+    color: #787878;
+}
+
+/*address*/
+address{
+    background: url("../images/index_84.png") repeat-x;
+    height:18px;
+    text-align: center;
+    margin-top:20px;
+    padding:30px 0;
+    font-size: 14px;
+    font-style: normal;
+}
